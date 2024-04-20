@@ -6,7 +6,11 @@ import styles from "./styles.module.css";
 
 const App = React.createClass({
   render: function () {
-    return <div className={styles.wrapper}>Text text text</div>;
+    return (
+      <div className={styles.wrapper}>
+        <h1>Enviroment: {__NODE_ENV__}</h1>
+      </div>
+    );
   },
 });
 
