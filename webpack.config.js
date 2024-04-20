@@ -16,7 +16,7 @@ const dest = join(root, "dist");
 
 var config = getConfig({
   isDev: isDev,
-  in: join(src, "src/app.js"),
+  in: join(src, "app.js"),
   out: dest,
   clearBeforeBuild: true,
 });
